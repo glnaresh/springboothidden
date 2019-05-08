@@ -1,1 +1,14 @@
-server.port=9002
+# Spring properties
+spring:
+  application:
+     name: hidden-service
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+
+# HTTP Server
+server:
+  port: 9002   # HTTP (Tomcat) port
