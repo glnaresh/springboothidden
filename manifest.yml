@@ -1,0 +1,5 @@
+applications:
+- name: springboothidden
+#random-route: true
+buildpack: java_buildpack
+path: target/springboothidden-0.0.1-SNAPSHOT.jar
